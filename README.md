@@ -54,8 +54,6 @@ sudo ./cleanup.sh
   curl -s "http://localhost:19999/api/v1/data?chart=system.cpu&points=5" | python3 -m json.tool
   ```
 
-## Next steps (future projects)
+## Project Url
 
-- Centralize metrics from multiple servers into Netdata Cloud or a Prometheus/Grafana stack
-- Wire alert notifications into Slack/email (currently just visible in-dashboard)
-- Add this setup to a CI/CD pipeline that provisions monitoring on every new droplet
+Sample log file sourced from the [roadmap.sh DevOps projects] https://roadmap.sh/projects/simple-monitoring-dashboard.
